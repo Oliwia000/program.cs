@@ -21,8 +21,8 @@ using System.Threading.Tasks;
         }
     /************************************* 
     * nazwa funkcji: <Sort> 
-    * parametry wejściowe:<> - <> 
-    * wartość zwracana:  <> 
+    * parametry wejściowe:<brak> - <brak> 
+    * wartość zwracana:  <Przyjmuje liczby,sortuje.> 
     *************************************/
     public void PokazTablice()
         {
@@ -31,8 +31,8 @@ using System.Threading.Tasks;
         }
     /************************************* 
     * nazwa funkcji: <PokazTablice> 
-    * parametry wejściowe:<> - <> 
-    * wartość zwracana:  <> 
+    * parametry wejściowe:<brak> - <brak> 
+    * wartość zwracana:  <Pokazuje liczby wpisane przez użytkownika.> 
     *************************************/
     private int SzukajIndeksuMaxa(int j)
         {
@@ -43,8 +43,8 @@ using System.Threading.Tasks;
         }
     /************************************* 
     * nazwa funkcji: <SzukajIndeksuMaxa> 
-    * parametry wejściowe:<> - <> 
-    * wartość zwracana:  <> 
+    * parametry wejściowe:<int j> - <> 
+    * wartość zwracana:  <funkcja szuka najwyższwej liczby.> 
     *************************************/
     public void Sortuj()
         {
@@ -60,7 +60,7 @@ using System.Threading.Tasks;
 
     /************************************* 
     * nazwa funkcji: <Sortuj> 
-    * parametry wejściowe:<> - <> 
-    * wartość zwracana:  <> 
+    * parametry wejściowe:<brak> - <brak> 
+    * wartość zwracana:  <Funkcja sortuje wszystkie liczby od najwiękzej.> 
     * autor: <Oliwia Strzelczyk 3d> 
     *************************************/

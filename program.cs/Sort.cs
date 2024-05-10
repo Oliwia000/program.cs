@@ -22,7 +22,7 @@ using System.Threading.Tasks;
     /************************************* 
     * nazwa funkcji: <Sort> 
     * parametry wejściowe:<brak> - <brak> 
-    * wartość zwracana:  <Przyjmuje  10 liczb,sortuje.> 
+    * wartość zwracana:  <sortuje.>  (opis )Przyjmuje  10 liczb
     *************************************/
     public void PokazTablice()
         {

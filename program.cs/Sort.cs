@@ -8,7 +8,7 @@ using System.Threading.Tasks;
         private int[] t = new int[10];
         
     /************************************* 
-    * nazwa funkcji: <Sort> 
+    * nazwa funkcji: <Sort> <Funkcja Sort służy do pobierania od użytkownika 10 liczb całkowitych i zapisania ich w tablicy.>
     * parametry wejściowe:<brak> - <brak> 
     * wartość zwracana:  <sortuje -(opis )Przyjmuje  10 liczb>
     *************************************/
@@ -38,7 +38,7 @@ using System.Threading.Tasks;
 
     /************************************* 
     * nazwa funkcji: <SzukajIndeksuMaxa> 
-    * parametry wejściowe:<int j> - <> 
+    * parametry wejściowe:<int j> - <Liczba całkowita, określająca indeks początkowy, od którego rozpoczyna się wyszukiwanie.> 
     * wartość zwracana:  <funkcja szuka najwyższwej liczby.> 
     *************************************/
     private int SzukajIndeksuMaxa(int j)
@@ -50,7 +50,7 @@ using System.Threading.Tasks;
         }
 
     /************************************* 
-    * nazwa funkcji: <Sortuj> 
+    * nazwa funkcji: <Sortuj> <Opis:Funkcja sortuj: algorytm sortowania przez wybieranie, który sortuje tablicę liczb całkowitych  od największej do najmniejszej wartości.>
     * parametry wejściowe:<brak> - <brak> 
     * wartość zwracana:  <Funkcja sortuje wszystkie liczby od najwiękzej.> 
     * autor: <Oliwia Strzelczyk 3d> 

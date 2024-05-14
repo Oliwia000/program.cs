@@ -6,7 +6,12 @@ using System.Threading.Tasks;
     internal class Sort
     {
         private int[] t = new int[10];
-
+        
+    /************************************* 
+    * nazwa funkcji: <Sort> 
+    * parametry wejściowe:<brak> - <brak> 
+    * wartość zwracana:  <sortuje -(opis )Przyjmuje  10 liczb>
+    *************************************/
         public Sort()
         {
             Console.WriteLine("Podaj 10 liczb całkowitych ");
@@ -19,20 +24,22 @@ using System.Threading.Tasks;
             } while (licznik < 10);
 
         }
-    /************************************* 
-    * nazwa funkcji: <Sort> 
+
+     /************************************* 
+    * nazwa funkcji: <PokazTablice> 
     * parametry wejściowe:<brak> - <brak> 
-    * wartość zwracana:  <sortuje -(opis )Przyjmuje  10 liczb>
+    * wartość zwracana:  <Pokazuje liczby wpisane przez użytkownika.> 
     *************************************/
     public void PokazTablice()
         {
             for (int i = 0; i < t.Length; i++)
                 Console.WriteLine(String.Format("{0}", t[i]));
         }
+
     /************************************* 
-    * nazwa funkcji: <PokazTablice> 
-    * parametry wejściowe:<brak> - <brak> 
-    * wartość zwracana:  <Pokazuje liczby wpisane przez użytkownika.> 
+    * nazwa funkcji: <SzukajIndeksuMaxa> 
+    * parametry wejściowe:<int j> - <> 
+    * wartość zwracana:  <funkcja szuka najwyższwej liczby.> 
     *************************************/
     private int SzukajIndeksuMaxa(int j)
         {
@@ -41,10 +48,12 @@ using System.Threading.Tasks;
                 if (t[k] > t[id]) id = k;
             return id;
         }
+
     /************************************* 
-    * nazwa funkcji: <SzukajIndeksuMaxa> 
-    * parametry wejściowe:<int j> - <> 
-    * wartość zwracana:  <funkcja szuka najwyższwej liczby.> 
+    * nazwa funkcji: <Sortuj> 
+    * parametry wejściowe:<brak> - <brak> 
+    * wartość zwracana:  <Funkcja sortuje wszystkie liczby od najwiękzej.> 
+    * autor: <Oliwia Strzelczyk 3d> 
     *************************************/
     public void Sortuj()
         {
@@ -58,9 +67,4 @@ using System.Threading.Tasks;
         }
 }
 
-    /************************************* 
-    * nazwa funkcji: <Sortuj> 
-    * parametry wejściowe:<brak> - <brak> 
-    * wartość zwracana:  <Funkcja sortuje wszystkie liczby od najwiękzej.> 
-    * autor: <Oliwia Strzelczyk 3d> 
-    *************************************/
+   
